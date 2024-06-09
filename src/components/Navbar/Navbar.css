@@ -18,6 +18,8 @@
   top: 0;
   left: 0;
   font-size: 14px;
+   
+  z-index: 10;
   /* border: 1px red solid; */
 }
 
@@ -125,6 +127,7 @@
 
   .bar-menu {
     display: flex;
+  
   }
 
   .menu:hover {
@@ -136,6 +139,8 @@
     flex-direction: column;
   }
   .inferior ul li {
+    /* border: 1px solid red; */
+ 
     margin: 0.25rem;
     display: flex;
     flex-direction: column;
