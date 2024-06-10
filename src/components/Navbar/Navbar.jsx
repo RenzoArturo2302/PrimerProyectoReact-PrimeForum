@@ -20,13 +20,13 @@ const Navbar = () => {
             <li>
               <NavLink to="/login" className="icon-text ">
                 <i className="fa-solid fa-right-to-bracket fa-lg" />
-                <a className="login-text">Iniciar Sesión</a>
+                <p className="login-text">Iniciar Sesión</p>
               </NavLink>
             </li>
             <li>
               <NavLink to="/register" className="icon-text">
                 <i className="fa-solid fa-right-from-bracket fa-lg" />
-                <a className="login-text">Registrarse</a>
+                <p className="login-text">Iniciar Sesión</p>
               </NavLink>
             </li>
           </ul>
@@ -44,7 +44,7 @@ const Navbar = () => {
             <span></span>
           </div>
         </div>
-        <div className="inferior" c>
+        <div className="inferior">
           {/*  Si menuOpen es true, entonces la clase className será "open". Si menuOpen es false, entonces la clase será una cadena vacía "".
            */}
           <ul className={menuOpen ? "open" : ""}>
